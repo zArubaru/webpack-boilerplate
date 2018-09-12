@@ -11,9 +11,14 @@
       "error",
       {
         "singleQuote": true,
+        "tabWidth": 2,
         "trailingComma": "es5"
       }
     ],
+    "indent": [2, 2],
     "semi": [1, "always"]
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
