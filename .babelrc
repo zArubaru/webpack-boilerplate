@@ -1,5 +1,9 @@
 {
-    "presets": [
-        ["env"]
-    ]
+  "presets": [
+    ["@babel/env"]
+  ],
+  "plugins": [
+    "@babel/transform-flow-comments",
+    "transform-class-properties"
+  ]
 }
